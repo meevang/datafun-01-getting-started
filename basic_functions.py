@@ -83,7 +83,7 @@ logger.info(f"response = {response}")
 print(f"You said {response}!")
 print(f"{hint}")
 
-if response == "y":
+if response == "n":
     print()
     print("Let's open a web page. Python makes it easy!")
     webbrowser.open_new(url)
